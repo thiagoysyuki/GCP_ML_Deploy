@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gcp-deploy-ml"
+version = "0.1.0"
+description = ""
+authors = ["thiagoysyuki <thiagoyukipdi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+ipykernel = "^6.29.5"
+tensorflow = "2.18.0"
+scikit-learn = "^1.6.1"
+matplotlib = "^3.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
